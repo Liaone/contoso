@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+input {
+    width: 350px;
+}
+
+.contact-form {
+    position: relative;
+    padding: 15px;
+    background-color: lightgrey;
+    display: inline-block;
+}
+
+.google-maps-container {
+    display: inline-block;
+    border: black solid 1px;
+    height: 300px;
+    width: 350px;
+}
+
+#form-message {
+    height: 200px;
+    width: 350px;
+}
+
+#form-send-button {
+    height: 20px;
+    right: 15px;
+    bottom: 0px;
+    position: absolute;
+}
