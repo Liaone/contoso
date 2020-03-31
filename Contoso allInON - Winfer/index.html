@@ -1,0 +1,151 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="contosofood.css">
+    <title>Contoso Foods Inc</title>
+</head>
+<body>
+
+    <!-- WINFERS HTML -->
+    <nav>        
+        <a class="nav-reservation-button" href="#">Reservation</a>
+        <ul class="nav-category-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Meny</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Present Card</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-images">
+            <img src="img/contosohall.jpg" alt="Background image header">
+            <div class="header-welcome-text">
+                <span class="header-logo-text">Contoso Foods Inc</span> 
+                <br>
+                <span class="header-under-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            </div>
+        </div>
+    </header>
+    
+
+
+<!-- JESPERS HTML -->
+<div id="main-container">
+    <h2 class="section-header">Categories</h2>
+    <div class="categories">
+        <div class="card-categories">
+            <img class="image-categories" src="img/steak.jpg" style="width: 100%;"/>
+            <div class="card-text-container">
+                <p>Beef</p>
+            </div>
+        </div>
+        <div class="card-categories">
+            <img class="image-categories" src="img/chicken.jpg" style="width: 100%;"/>
+            <div class="card-text-container">
+                <p>Chicken</p>
+            </div>
+        </div>
+        <div class="card-categories">
+            <img class="image-categories" src="img/vege.jpg" style="width: 100%;"/>
+            <div class="card-text-container">
+                <p>Vegetarian</p>
+            </div>
+        </div>
+        <div class="card-categories">
+            <img class="image-categories" src="img/dessert.jpg" style="width: 100%;"/>
+            <div class="card-text-container">
+                <p>Desserst</p>
+            </div>
+        </div>
+    </div>
+    <div class="input-categories">
+        <input class="search-categories" placeholder="Search" />
+    </div>
+    <div class="about-container">
+        <div class="left-about-container">
+            <img src="img/aboutpic.jpg">
+        </div>
+        <div class="right-about-container">
+            <div class="right-about-text">
+                <h2>Our journey so far..</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br><br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <br><br>
+                It is a long established fact that a reader will be distracted by the readable content.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- JOHNS HTML -->
+    <div class="contact-wrapper">
+        <div class="google-maps-container">
+            
+        </div>
+        <div class="contact-form">
+            <label for="first-name"> Name: </label><br>
+            <input type="text" id="first-name"><br>
+
+            <label for="last-name"> Email: </label><br>
+            <input type="text" id="last-name"><br>
+
+            <label for="form-subject"> Subject: </label><br>
+            <input type="text" id="form-subject"><br>
+
+            <label for="form-message"> Message: </label><br>
+            <textarea id="form-message" placeholder="Your message.."></textarea>
+            <button id="form-send-button"> Send </button>
+        </div>
+    </div>
+
+
+
+
+    <!-- GIORGIOS HTML -->
+    <footer class="row text-white pt-5 mx-0">
+        <div class="col-sm-4 d-flex flex-column align-items-center">
+            <h4>
+                Restaurang Contoso Foods Inc.<br>
+                Kungsgatan 12<br>
+                11135 Stockholm<br>
+                Tel. 12398765
+            </h4>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-center">
+            <h4>Prenumerera</h4>
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control col-md-8" type="text" placeholder="Din emailadress">
+                <button type="button" class="btn btn-light">OK</button>
+            </form>
+            <div class="icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-center">
+            <h4>
+                Öppettider<br>
+                Sön-Tor 11:00-23:00<br>
+                Fr-Lör 11:00-01:00
+            </h4>
+        </div>
+    </footer> 
+    
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
