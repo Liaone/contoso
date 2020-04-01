@@ -272,6 +272,9 @@ footer {
   padding: 6px;
   font-size: 14px;
 }
+.footer-column a {
+  color: white;
+}
 
 .last-footer-section {
   text-align: center;
