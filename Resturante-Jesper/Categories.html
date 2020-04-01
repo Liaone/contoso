@@ -4,20 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/77f9a0ac97.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
+    <header>
+      <div class="header-images">
+        <nav>
+          <div class="nav-container">
+           
+            <ul class="topnav" id="myTopnav">
+              <a class="logo-text" href="#">Contoso</a>
+              <a href="#">Menu</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+              <a href="#">Gift Card</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </ul>
+          </div>
+        </nav>
+        <div class="backgroundimage">
+        <img  src="./assets/img/background.jpg" alt="Background image header" />
+      </div>
+        <div class="header-welcome-text">
+          <span class="header-logo-text">Contoso Foods Inc</span>
+          <br />
+          <span class="header-under-text"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+          ><br>
+          <button id="reservationbtn" class="reservation-button">Reservation</button>
+        </div>
+      </div>
+    </header>
+
     <div id="main-container">
       <h2 class="section-header">Categories</h2>
       <div class="categories">
         <div class="card-categories">
           <img
             class="image-categories"
-            src="/assets/img/steak.jpg"
+            src="./assets/img/steak.jpg"
             style="width: 100%;"
           />
           <div class="card-text-container">
@@ -27,7 +61,7 @@
         <div class="card-categories">
           <img
             class="image-categories"
-            src="/assets/img/chicken.jpg"
+            src="./assets/img/chicken.jpg"
             style="width: 100%;"
           />
           <div class="card-text-container">
@@ -37,7 +71,7 @@
         <div class="card-categories">
           <img
             class="image-categories"
-            src="/assets/img/vege.jpg"
+            src="./assets/img/vege.jpg"
             style="width: 100%;"
           />
           <div class="card-text-container">
@@ -47,7 +81,7 @@
         <div class="card-categories">
           <img
             class="image-categories"
-            src="/assets/img/dessert.jpg"
+            src="./assets/img/dessert.jpg"
             style="width: 100%;"
           />
           <div class="card-text-container">
@@ -56,30 +90,78 @@
         </div>
       </div>
       <div class="input-categories">
-        <input class="search-categories" placeholder="Search" />
+        <input class="search-categories" placeholder="Search for food.." />
       </div>
+      <h2 class="section-header">About us</h2>
       <div class="about-container">
         <div class="left-about-container">
-          <img src="/assets/img/aboutPic.jpg">
+          <img src="./assets/img/aboutPic.jpg" />
         </div>
         <div class="right-about-container">
           <div class="right-about-text">
-          <h2>Our journey so far..</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.<br><br>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat.
-          
-          <br><br>
-          It is a long established fact that a reader will be distracted 
-          by the readable content.
-          </p>
-          
-        </div>
+            <h2>Our journey so far..</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.<br /><br />
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+
+              <br /><br />
+              It is a long established fact that a reader will be distracted by
+              the readable content.
+            </p>
+          </div>
         </div>
       </div>
+      <h2 class="section-header">Contact</h2>
+        <div class="contact-information">
+         
+
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+        </div>
+       
+    <div id="map"></div>
+    
+  </div>
     </div>
+    
+    <footer class="main-footer">
+      <section class="footer-columns">
+	
+        <div class="footer-column">   
+          <p><i class="fab fa-instagram"></i>Instagram</p>
+          <p><i class="fab fa-facebook"></i>Facebook</p>
+          <p><i class="fab fa-twitter"></i>Twitter</p>
+        </div>
+        
+        
+        
+        <div class="footer-column">
+          <p>FOLKUNGAGATAN 110, 116 30 STOCKHOLM</p>
+          <p>08-123 34 45 </p>
+          <p>Info@contoso.com</p>
+        </div>
+        
+      </section>
+
+      <section class="last-footer-section" >
+        <p>Contoso © All Rights Reserved | Liaone tieto</p>
+      </section>
+
+    </footer>
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?AIzaSyCZUJxUxzqATYHb8mJQhjpVluQ6yymK7rw&callback=initMap">
+</script>
+    <script src="assets/javascript/javascript.js"></script>
   </body>
 </html>
