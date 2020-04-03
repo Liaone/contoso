@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style/style-menu.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/77f9a0ac97.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="site-container" class="backgroundimage">
+      <header>
+        <nav>
+          <div class="nav-container">
+            <ul class="topnav" id="myTopnav">
+              <a class="logo-text" href="#">Contoso</a>
+              <a href="#">Menu</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+              <a href="#">Gift Card</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </ul>
+          </div>
+        </nav>
+        <main id="main-container">
+          <h2 class="menu-header">Menu</h2>
+          <input class="search-menu" placeholder="What would you like..." />
+
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">All</a>
+              <a href="#about">Beef</a>
+              <a href="#contact">Chicken</a>
+              <a href="#contact">Vegetarian</a>
+              <a href="#contact">Desserts</a>
+            </div>
+          </div>
+          <div id="output">
+            <h5 id="food"></H5>
+        </main>
+      </header>
+      <footer class="main-footer">
+        <section class="footer-columns">
+          <div class="footer-column">
+            <p><i class="fab fa-instagram"></i>Instagram</p>
+            <p><i class="fab fa-facebook"></i>Facebook</p>
+            <p><i class="fab fa-twitter"></i>Twitter</p>
+          </div>
+
+          <div class="footer-column">
+            <p>Öppettider</p>
+            <p>Sön-Tor 11:00-23:00</p>
+            <p>Fr-Lör 11:00-01:00</p>
+          </div>
+
+          <div class="footer-column">
+            <p>FOLKUNGAGATAN 110, 116 30 STOCKHOLM</p>
+            <p>08-123 34 45</p>
+            <p>Info@contoso.com</p>
+          </div>
+        </section>
+
+        <section class="last-footer-section">
+          <p>Contoso © All Rights Reserved | Liaone tieto</p>
+        </section>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/assets/javascript/javascript-menu.js"></script>
+  </body>
+</html>
