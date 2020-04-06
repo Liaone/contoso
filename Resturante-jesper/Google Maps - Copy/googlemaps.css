@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+}
+header {
+    background-color: rgba(128, 128, 128, 0.253);
+    
+}
+header > h3 {
+    color: rgb(70, 69, 69);
+    font-size: 18px;
+    font-weight: normal;
+    padding: 6px;
+    
+    
+}
+#container {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 2%;
+    
+
+    
+    
+}
+.column-header{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#left-column {
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    
+}
+.cities {
+    
+    border: solid #9c9c9cd2 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: #f1f1f1;
+  }
+  li a {
+      font-size: 11;
+    display: block;
+    color: #007AFE;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #007AFE;
+    color: white;
+  }
+
+#right-column {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 50%;  
+    display: inline-block;
+    
+
+}
+#output {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: rgb(226, 224, 224);
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+}
+#output > #bedroom {
+    padding-top: 10px;
+    font-size: 14px;
+}
+#output > #neighborhood {
+    padding-top: 10px;
+    font-size: 14px;
+}
+#output > #price {
+    padding-top: 10px;
+    padding-right: 20px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 14px;
+}
+#output > #information {
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+#mapView {
+    text-decoration: none;
+    color: black;
+}
+#mapView:visited {
+    color: rgb(136, 124, 124);
+}

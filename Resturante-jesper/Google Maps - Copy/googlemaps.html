@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="googlemaps.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header id=nav>
+        <h3>Google Maps</h3>
+    </header>
+    <div id="container">
+        <div id="left-column">
+            <h4 class="column-header">Cities</h4>
+
+            <ul class="cities">
+                <li><a id="all-choice" href="#all" onclick="loadData()">All</a></li>
+                <li><a id="bronx-choice" href="#bronx" onclick="loadData('The Bronx')">Bronx</a></li>
+                <li><a id="brooklyn-choice" href="#brooklyn" onclick="loadData('Brooklyn')">Brooklyn</a></li>
+                <li><a id="manhattan-choice" href="#manhattan" onclick="loadData('Manhattan')">Manhattan</a></li>
+                <li><a id="queens-choice" href="#queens" onclick="loadData('Queens')">Queens</a></li>
+                <li><a id="staten-choice" href="#staten" onclick="loadData('Staten Island')">Staten Island</a></li>
+            </ul>
+
+        </div>
+
+        <div id="right-column">
+            <h4 class="column-header">Available Apartments</h4>
+
+            <div id="output">
+                <h5 id="price"></h5>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="googlemaps.js"></script>
+</body>
+
+</html>

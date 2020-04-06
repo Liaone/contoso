@@ -42,15 +42,15 @@
           <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Dropdown</button>
             <div id="myDropdown" class="dropdown-content">
-              <a href="#home">All</a>
-              <a href="#about">Beef</a>
-              <a href="#contact">Chicken</a>
-              <a href="#contact">Vegetarian</a>
-              <a href="#contact">Desserts</a>
+              <a id="all" href="#all" onclick="loadData()">All</a>
+              <a id="Beef" href="#beef" onclick="loadData('Beef')">Beef</a>
+              <a id="Chicken" href="#chicken" onclick="loadData('Chicken')">Chicken</a>
             </div>
           </div>
           <div id="output">
-            <h5 id="food"></H5>
+            <h5 id="apart"></h5>
+             <p id="error"></p>
+        </div>
         </main>
       </header>
       <footer class="main-footer">
