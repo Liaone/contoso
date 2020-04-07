@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contoso Foods Inc.</title>
+</head>
+<body>
+
+
+
+
+
+<!-- navigation -->
+
+<nav id="topNav" class="nav-container">
+    <div class="nav-wrapper">
+        <div class="logo-holder">
+            <a class="logo-link" href="#"> Contoso </a>
+        </div>
+        <div class="nav-meny">
+            <ul>
+                <li><a class="nav-link" href="#"> Meny </a></li>
+                <li><a class="nav-link" href="#aboutContainer"> About Us </a></li>
+                <li><a class="nav-link" href="#contactContainer"> Contact </a></li>
+                <li><a class="nav-link" href="#"> Gift Card </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+<!-- header -->
+
+<header>
+    <div class="header-content">
+        <img src="./img/background.jpg">
+        <div class="header-text">
+            <h1> Contoso Foods Inc </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <a href="#reservation-drop" onclick="showHide()"> Reservation </a>
+        </div>
+    </div>
+</header>
+    
+
+
+
+
+
+
+
+<!-- Reservation -->
+
+<section id="reservationContainer" class="reservation-container">
+    <div id="reservation-drop" class="reservation-wrapper">
+        <div class="reservation-content">
+            <h3> Book a table </h3>
+            <div class="reservation-option">
+                <select name="persons">
+                    <option value="0"> Number of Persons </option>
+                    <option value="1"> 1 </option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                </select>
+                <select name="date">
+                    <option value="0"> Select Date </option>
+                    <option value="1"> 13 june 2020 </option>
+                    <option value="2"> 14 june 2020 </option>
+                    <option value="3"> 15 june 2020 </option>
+                </select>
+                <select name="time">
+                    <option value="0"> Select Time </option>
+                    <option value="1"> 19:00 </option>
+                    <option value="2"> 20:00 </option>
+                    <option value="3"> 21:00 </option>
+                </select> 
+            </div>
+            <div class="reservation-details">
+                <p> Your details </p>
+                <input type="text" placeholder="First name:"><br>
+                <input type="text" placeholder="Last name:"><br>
+                <input type="text" placeholder="E-mail:"><br>
+                <input type="text" placeholder="Phone Number"><br>
+                <button type="button"> Complete Your Booking </button>
+            </div>
+        </div>
+        <a href="#topNav"><i class="fa fa-angle-up"></i></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Categories / search bar -->
+
+<section class="category-container">
+    <div class="category-wrapper">
+        <div class="category-content">
+            <h2> Category </h2>
+            <div class="card-pack">
+                <div class="card-frame">
+                    <a href="#">
+                        <img src="./img/steak.jpg" alt="">
+                        <p> Steak </p>
+                    </a>
+                </div>
+                <div class="card-frame">
+                    <a href="#">
+                        <img src="./img/chicken.jpg" alt="">
+                        <p> Chicken </p>
+                    </a>
+                </div>
+                <div class="card-frame">
+                    <a href="#">
+                        <img src="./img/vege.jpg" alt="">
+                        <p> Vege </p>
+                    </a>
+                </div>
+                <div class="card-frame">
+                    <a href="">
+                        <img src="./img/dessert.jpg" alt="">
+                        <p> Dessert </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="search-food" placeholder="Search for food.."/>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- About us -->
+
+<section id="aboutContainer" class="about-container">
+    <div class="about-wrapper">
+        <h2> About us </h2>
+        <div class="about-content">
+            <div class="about-pic">
+                <img src="./img/aboutus.jpg" alt="">
+            </div>
+            <div class="about-info">
+                <h3> Our journey so far </h3>
+                <br> <br>
+                <p> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquam soluta aperiam illum, tempora explicabo recusandae nulla? Fugiat repellat quae quo obcaecati consectetur sapiente voluptatum ducimus dicta? Facere, dolore odit? 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                </p> <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorum in asperiores consequuntur eligendi eveniet consectetur architecto veniam maxime magni esse sit cupiditate harum quidem nobis a iste, reiciendis hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p> <br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                </p>
+            </div>
+        </div>
+        <a href="#topNav"><i class="fa fa-angle-up"></i></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Contact -->
+
+<section id="contactContainer" class="contact-container">
+    <div class="contact-wrapper">
+        <h2> Contact </h2>
+        <div class="contact-content">
+            <div class="contact-details">
+                <input type="text" placeholder="Namn:"><br>
+                <input type="text" placeholder="E-mail:"><br>
+                <input type="text" placeholder="Subjet:"><br>
+                <textarea placeholder="Your message.."></textarea><br>
+                <button> Send </button>
+            </div>
+            <div class="map-holder">
+                <div id="map"></div>
+            </div>
+        </div>
+        <a href="#topNav"><i class="fa fa-angle-up"></i></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+    <section class="footer-container">
+        <div class="footer-wrapper">
+            <div class="footer-info">
+                <p> Open Hours </p>
+                <p> Sun-Thu: 11:00 - 23:00 </p>
+                <p> Fri-Sat: 11:00 - 01:00 </p>
+            </div>
+            <div class="footer-info">
+                <p> Folkungagatan 110, 116 30 Stockholm </p>
+                <p> 08-123 34 45 </p>
+                <p> info@contoso.com </p>
+            </div>
+            <div class="footer-social">
+                <a class="social-link" href="#"> Instagram </a>
+                <a class="social-link" href="#"> Facebook </a> 
+                <a class="social-link" href="#"> Youtube </a> 
+            </div>
+    </div>
+    <div class="footer-end">
+        <P> Contoso Foods Inc © All Rights Reserved | Liaone tieto </P>
+    </div>
+
+
+
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyCZUJxUxzqATYHb8mJQhjpVluQ6yymK7rw&callback=initMap"></script>    
+<script src="javascript.js"></script>
+</body>
+</html>
