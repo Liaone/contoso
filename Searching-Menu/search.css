@@ -1,0 +1,34 @@
+#countries{
+    justify-content: center;
+   
+}
+#search-items{
+    justify-content: center;
+
+}
+#form{
+    display:flex;
+    justify-content: center;
+    color: black;
+    margin: 10px;
+}
+.btn{
+   
+    align-content: center;
+}
+#browse-meal{
+    
+    text-align: center;
+    
+}
+/* button */
+.zone{
+    width: 70px; 
+    padding: 0px; 
+    color: black; 
+    height: 16px; 
+    font-size: 10px;
+    font-weight: bold;
+    background-color: gray;
+   
+}

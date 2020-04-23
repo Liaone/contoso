@@ -1,0 +1,8 @@
+/* #apartments{
+    display: grid;
+
+} */
+#apartments{
+   place-content: center center;
+
+}

@@ -1,0 +1,26 @@
+#countries{
+    place-content: center center;
+    place-items: center center;
+   
+}
+
+.btn{
+   
+    align-content: center;
+}
+#browse-meal{
+    
+    text-align: center;
+    
+}
+/* button */
+.zone{
+    width: 40px; 
+    padding: 0px; 
+    color: black; 
+    height: 15px; 
+    font-size: 6px;
+    font-weight: bold;
+    background-color: gray;
+   
+}
