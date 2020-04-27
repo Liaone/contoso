@@ -4,74 +4,70 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="reservation.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Table Reservation</title>
   </head>
   <body>
-    <h1 style="text-align: center;">Book a Table</h1>
-    <div class="d-flex justify-content-center"  >
-        <div style="padding: 16px;">
-       
-        <select class="btn-secondary dropdown-toggle" name="cars">
-          <option value="volvo"selected>Number of Persons</option>
-          <option value="saab">1</option>
-          <option value="saab">2</option>
-          <option value="fiat">3</option>
-          <option value="audi">4</option>
-        </select>
+    <div id="form" class="d-flex justify-content-center" >
+<form>
+  <h4 style="text-align: center; ">Book a Table</h4>
+  <div class="d-flex justify-content-center" >
+      <div style="padding: 15px; ">
+        
+      <select class=" btn btn-outline-dark btn-sm dropdown-toggle">
+        <option selected>Number of Persons</option>
+        <option value="persons">1</option>
+        <option value="persons">2</option>
+        <option value="persons">3</option>
+        <option value="persons">4</option>
+      </select>
+    </div>
+    <div   style="padding: 15px; ">
+      <input class="btn btn-outline-dark btn-sm"  type="date">
+  </div>
+    <div style="padding: 15px;">
+      <input class="btn btn-outline-dark btn-sm"  type="time" name="" id="">
+        
       </div>
-      <div style="padding: 15px;">
-        <select class="btn-secondary dropdown-toggle" name="cars">
-          <option value="volvo"selected>Select Date</option>
-          <option value="saab">13 june 2020</option>
-          <option value="fiat">14 june 2020</option>
-          <option value="audi">15 june 2020</option>
-        </select>
-        </div>
-        <div style="padding: 15px;">
-          <select class="btn-secondary" name="cars">
-            <option value="volvo"selected>Select Time</option>
-            <option value="saab">19:00</option>
-            <option value="fiat">20:00</option>
-            <option value="audi">21:00</option>
-          </select> 
-        </div>
 </div>
-<div class="d-flex justify-content-center" >
-<form >
-    <h4>Your details</h4>
     <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">First Name</label>
-        <input type="first-name" class="form-control" id="first-name">
+      <div class="form-group col-md-6 col-sm-4">
+        <label for="first-name" style="font-size: 15px;">First Name</label>
+        <input type="first-name" class="form-control btn-outline-dark btn-sm" id="first-name">
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Last Name</label>
-        <input type="last-name" class="form-control" id="last-name">
+      <div class="form-group col-md-6 col-sm-4">
+        <label for="last-name" style="font-size: 15px;">Last Name</label>
+        <input type="last-name" class="form-control btn-outline-dark btn-sm" id="last-name">
       </div>
     </div>
     <div class="form-group">
-      <label for="inputAddress">Email</label>
-      <input type="email" class="form-control" id="email" >
+      <label for="email" style="font-size: 15px;">Email</label>
+      <input type="email" class="form-control btn-outline-dark btn-sm" id="email" >
     </div>
     <div class="form-group">
-      <label for="inputAddress2">Phone Number</label>
-      <input type="mobile-number" class="form-control" id="inputAddress2">
+      <label for="mobile-number" style="font-size: 15px;">Phone Number</label>
+      <input type="tel" class="form-control btn-outline-dark btn-sm " id="inputAddress2">
     </div>
    
     
-    <button type="button" class="btn btn-secondary btn-lg btn-block">Complete Your Booking</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block ">Complete Your Booking</button>
 
   </form>
 </div>
+<br>
+<br>
+<br>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="reservation.js"></script>
   </body>
 </html>
