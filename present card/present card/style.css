@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0;
+    
+}
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    grid-template-rows: 1fr;
+    justify-content: center;
+    width: 100%;
+    
+}
+    
+.zone{
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+}
+.zone img{
+    width:100%;
+    align-self:center ;
+
+}
+.HeaderA,.HeaderB{
+   
+        width: 100px;
+        height: 20px;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+    
+
+.address{
+ display: flex;
+ flex-direction: column;
+ font-weight: bold;
+ font-size: 10px;
+ margin: 1% 40% ;
+ place-content: center center;
+
+}
+
+
+.address input{
+width: 300px;
+height: 30px;
+border-radius: 10px;
+
+}
+.buy{
+ width : 80px;
+ height: 40px;
+ 
+ border-radius: 10px;
+
+}
+@media only screen and (max-width:700px){
+ .address input{
+  width: 300px;
+ }
+ .address{
+     margin-left: 20%;
+ }
+}
+@media only screen and (max-width:500px){
+ .address input{
+  width: 250px;
+ }
+ .address{
+     margin-left: 20%;
+ }
+}
+       
+       
